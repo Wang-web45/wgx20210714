@@ -19,6 +19,7 @@ public class OneServlet extends HttpServlet {
         PrintWriter out =response.getWriter();
         out.println("神棍");
         out.close();
+        out.println();
 
     }
 
